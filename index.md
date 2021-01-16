@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Σύντομη περιγραφή
 
-You can use the [editor on GitHub](https://github.com/evimoloni/ergasia_xronoprogrammatismou/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Το πρόβλημα σχετίζεται με εξετάστεις, φοιτητές και διαδοχικές περιόδους σε κάθε μια από
+τις οποίες μπορούν να διεξαχθούν μια ή περισσότερες εξετάσεις.Κάθε εξέταση διαθέτει μια λί‐
+στα από φοιτητές και κάθε φοιτητές μπορεί να είναι εγγεγραμμένος σε μια ή περισσότε‐
+ρες εξετάσεις.Η λύση του προβλήματος συνίσταται στην ανάθεση εξετάσεων σε περιόδους έτσι
+ώστε να μην υπάρχουν συγκρούσεις.Ειδικότερα, ορίζονται τιμές ποινής που είναι 16, 8, 4, 2 ή 1 σε κάθε περίπτωση που ένας φοιτητής συμμετέχει
+σε δύο εξετάσεις που απέχουν 1, 2, 3, 4 ή 5 περιόδους αντίστοιχα. Η συνολική ποινή για όλους
+τους φοιτητές, διαιρεμένη με το πλήθος των φοιτητών αποτελεί το κόστος της λύσης.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Οδηγίες εγκατάστασης
+Για την επίλυση του προβλήματος εργαστήκαμε με την γλώσσα προγραμματισμού Python.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+$ python3 --version
+Python 3.8.5
+```
+Το σύστημα που χρησιμοποιήθηκε είναι  το
+```markdown
+Windows 10
+```
+Απαιτείται εγκατάσταση του πακέτου [networkx](https://networkx.org/
+NetworkX — NetworkX documentation
+NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+networkx.org
+) κάτι το οποίο μπορεί να γίνει με
+```markdown
+$ pip3 install networkx
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Οδηγίες εκτέλεσης
+**1.** Τρέχουμε το αρχείο main.py που βρίσκεται στον φάκελο της εργασίας με την εντολή
+```markdown
+$ python3 main.py
+```
 
-### Jekyll Themes
+**2.** Φορτώνουμε ένα συγκεκριμένο πρόβλημα στη μνήμη μέσω της 1ης επιλογής
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/evimoloni/ergasia_xronoprogrammatismou/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
